@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #333333;
+div.header {
+    background: #ffffff;
+}
+div.header row {
+    margin-top: 50px;
 }
 
 div.container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
@@ -18,16 +21,14 @@ div.navbar {
     display: flex;
     align-items: center;
     padding: 20px;
-    background-color: #f6f6f6;
-
 }
 nav {
     flex: 1;
     text-align: right;
 }
 nav ul {
-    display: inline-block;
     list-style-type: none;
+    display: inline-block;
 }
 nav ul li {
     display: inline-block;
@@ -35,9 +36,8 @@ nav ul li {
 }
 a {
     text-decoration: none;
-    color: #666666;
+    color: #555;
 }
-div.menu a {
-    font-weight: 400;
-    font-size: 18px;
+p {
+    color: #555;
 }
